@@ -11,6 +11,14 @@
 		1DF631322C2B2584002B2ED9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF631312C2B2584002B2ED9 /* ContentView.swift */; };
 		1DF631342C2B2585002B2ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF631332C2B2585002B2ED9 /* Assets.xcassets */; };
 		1DF631372C2B2585002B2ED9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF631362C2B2585002B2ED9 /* Preview Assets.xcassets */; };
+		1DF6313E2C2B25C6002B2ED9 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF6313D2C2B25C6002B2ED9 /* APIService.swift */; };
+		1DF631402C2B25D6002B2ED9 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF6313F2C2B25D6002B2ED9 /* Forecast.swift */; };
+		1DF631422C2B658B002B2ED9 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF631412C2B658B002B2ED9 /* ForecastViewModel.swift */; };
+		1DF631442C2C3716002B2ED9 /* ForecastListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF631432C2C3716002B2ED9 /* ForecastListViewModel.swift */; };
+		1DF631472C2C4E84002B2ED9 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1DF631462C2C4E84002B2ED9 /* SDWebImageSwiftUI */; };
+		1DF631492C2C9245002B2ED9 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF631482C2C9245002B2ED9 /* UIApplication+Extension.swift */; };
+		1DF6314B2C2D8D28002B2ED9 /* APIServiceCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF6314A2C2D8D28002B2ED9 /* APIServiceCombine.swift */; };
+		1DF6314D2C2D9195002B2ED9 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF6314C2C2D9195002B2ED9 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,13 @@
 		1DF631312C2B2584002B2ED9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DF631332C2B2585002B2ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DF631362C2B2585002B2ED9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DF6313D2C2B25C6002B2ED9 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		1DF6313F2C2B25D6002B2ED9 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		1DF631412C2B658B002B2ED9 /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
+		1DF631432C2C3716002B2ED9 /* ForecastListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListViewModel.swift; sourceTree = "<group>"; };
+		1DF631482C2C9245002B2ED9 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		1DF6314A2C2D8D28002B2ED9 /* APIServiceCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceCombine.swift; sourceTree = "<group>"; };
+		1DF6314C2C2D9195002B2ED9 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF631472C2C4E84002B2ED9 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +69,15 @@
 			children = (
 				1DF6312F2C2B2584002B2ED9 /* Mobile_Weather_AppApp.swift */,
 				1DF631312C2B2584002B2ED9 /* ContentView.swift */,
+				1DF6313D2C2B25C6002B2ED9 /* APIService.swift */,
 				1DF631332C2B2585002B2ED9 /* Assets.xcassets */,
 				1DF631352C2B2585002B2ED9 /* Preview Content */,
+				1DF6313F2C2B25D6002B2ED9 /* Forecast.swift */,
+				1DF631412C2B658B002B2ED9 /* ForecastViewModel.swift */,
+				1DF631432C2C3716002B2ED9 /* ForecastListViewModel.swift */,
+				1DF631482C2C9245002B2ED9 /* UIApplication+Extension.swift */,
+				1DF6314A2C2D8D28002B2ED9 /* APIServiceCombine.swift */,
+				1DF6314C2C2D9195002B2ED9 /* Launch Screen.storyboard */,
 			);
 			path = "Mobile Weather App";
 			sourceTree = "<group>";
@@ -83,6 +106,9 @@
 			dependencies = (
 			);
 			name = "Mobile Weather App";
+			packageProductDependencies = (
+				1DF631462C2C4E84002B2ED9 /* SDWebImageSwiftUI */,
+			);
 			productName = "Mobile Weather App";
 			productReference = 1DF6312C2C2B2584002B2ED9 /* Mobile Weather App.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +137,9 @@
 				Base,
 			);
 			mainGroup = 1DF631232C2B2584002B2ED9;
+			packageReferences = (
+				1DF631452C2C4E84002B2ED9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 1DF6312D2C2B2584002B2ED9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF6314D2C2D9195002B2ED9 /* Launch Screen.storyboard in Resources */,
 				1DF631372C2B2585002B2ED9 /* Preview Assets.xcassets in Resources */,
 				1DF631342C2B2585002B2ED9 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +167,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF631402C2B25D6002B2ED9 /* Forecast.swift in Sources */,
 				1DF631322C2B2584002B2ED9 /* ContentView.swift in Sources */,
+				1DF6314B2C2D8D28002B2ED9 /* APIServiceCombine.swift in Sources */,
+				1DF6313E2C2B25C6002B2ED9 /* APIService.swift in Sources */,
 				1DF631302C2B2584002B2ED9 /* Mobile_Weather_AppApp.swift in Sources */,
+				1DF631422C2B658B002B2ED9 /* ForecastViewModel.swift in Sources */,
+				1DF631442C2C3716002B2ED9 /* ForecastListViewModel.swift in Sources */,
+				1DF631492C2C9245002B2ED9 /* UIApplication+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +314,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,6 +344,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -344,6 +382,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1DF631452C2C4E84002B2ED9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1DF631462C2C4E84002B2ED9 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DF631452C2C4E84002B2ED9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1DF631242C2B2584002B2ED9 /* Project object */;
 }
